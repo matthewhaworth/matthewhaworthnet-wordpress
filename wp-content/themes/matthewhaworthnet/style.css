@@ -1,0 +1,199 @@
+/*
+Theme Name: MatthewHaworthNet
+Theme URI: 
+Author: Matthew Haworth
+Author URI: 
+Description: 
+Version: 1.1
+*/
+
+body {
+    color: #333;
+    background-image: url('img/shattered.png');
+    background-color: #E9E9E9;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #ff6600;
+}
+
+a:hover {
+    color: #ff2200;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #999;
+}
+
+ul, ol {
+    list-style: circle inside none;
+    margin-bottom: 1.5em;
+}
+
+ul li, ol li {
+    font-size: 0.9em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.25em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    color: #3299bb;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #424242;
+    font-size: 1.7em;
+}
+
+h3 {
+    color: #424242;
+    font-size: 1.5em;
+}
+
+h4 {
+    color: #424242;
+    font-size: 1.2em;
+}
+
+h5, h6 {   
+    font-size: 1em;
+}
+
+p {
+    font-size: 0.9em;
+    margin-bottom: 1.5em;
+}
+
+blockquote {
+    padding-left: 2em;
+    padding-right: 2em;
+    font-style: italic;
+    background-color: #ddd;
+}
+
+h1 a {
+    color: #3299bb;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 0 auto;
+    width: 800px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.name h1, .bio h2 {
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    width: 800px;
+}
+
+.name {
+    text-align: left;
+    float: left;
+    width: 50%;
+}
+
+.bio {
+    margin-top: 0.95em;
+    text-align: right;
+    float: left;
+    width: 50%;
+}
+
+.long-bio {
+    padding: 10px;
+    text-align: center;
+    color: #555;
+}
+
+.thick {
+    height: 3px;
+}
+
+.content {
+    margin: 0 auto;
+}
+
+.articles {
+    float: left;
+    width: 550px;
+}
+
+article .article-info {
+    color: #777;
+    font-size: 0.9em;
+}
+
+aside {
+    text-align: left;
+    float: right;
+    width: 200px;
+}
+
+aside h5 {
+    color: #888;
+}
+
+.article-info {
+    margin-top: -1em;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    header, footer {
+        width: auto;
+    }
+    
+    .name {
+        text-align: center;
+        width: 100%;
+        float: none;
+    }
+    
+    .bio {
+        display: none;
+    }
+    
+    .articles {
+        float: none;
+        width: auto;
+    }
+    
+    aside {
+        width: auto;
+        float: none;
+    }
+}
