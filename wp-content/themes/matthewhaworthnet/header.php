@@ -13,7 +13,7 @@
 <body <?php body_class(); ?>>
     <div class="container">
     <header>            
-        <div class="name">
+        <div class="name-container">
             <h1><a href='<?php echo get_site_url(); ?>'>matthew haworth</a></h1>
         </div>
         <div class="bio">

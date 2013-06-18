@@ -102,7 +102,7 @@ header {
     padding-bottom: 10px;
 }
 
-.name h1, .bio h2 {
+.name-container h1, .bio h2 {
     margin-bottom: 0;
 }
 
@@ -111,7 +111,7 @@ footer {
     width: 800px;
 }
 
-.name {
+.name-container {
     text-align: left;
     float: left;
     width: 50%;
@@ -177,7 +177,7 @@ aside h5 {
         width: auto;
     }
     
-    .name {
+    .name-container {
         text-align: center;
         width: 100%;
         float: none;
