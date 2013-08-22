@@ -10,7 +10,7 @@ $posts = get_posts('paged='. $paged);
         <article>
             <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             <p class="article-info"><?php echo get_the_date('F jS Y'); ?> in <?php the_category(', '); ?></p>
-            <?php the_excerpt(); ?>
+            <?php the_content(); ?>
             <a href="<?php the_permalink(); ?>">Read more..</a>
             <hr />
         </article>	
