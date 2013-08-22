@@ -567,7 +567,7 @@ class SyntaxHighlighter {
 	// Output an anchor in the header for the Javascript to use
 	// Might as well use it to output the version to help me debug people's sites
 	function output_header_placeholder() {
-		echo '<meta id="syntaxhighlighteranchor" name="syntaxhighlighter-version" content="' . esc_attr( $this->pluginver ) . '" />' . "\n";
+		echo '';
 	}
 
 
