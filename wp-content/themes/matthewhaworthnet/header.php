@@ -24,7 +24,7 @@
         </div>
         <div class="clear"></div>
         <hr class="thick"/>
-        <h5 class="long-bio">Manchester based Magento certified developer, Zend Framework enthusiast (soon to be certified).</h5>
+        <h5 class="long-bio">Manchester based Magento and Zend Framework certified developer.</h5>
         <hr />
     </header>
     
