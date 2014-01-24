@@ -23,10 +23,19 @@ body {
 a {
     text-decoration: none;
     color: #B95331;
+    -webkit-transition:color 0.3s ease-out;
+    -moz-transition:color 0.3s ease-out;
+    -ms-transition:color 0.3s ease-out;
+    -o-transition:color 0.3s ease-out;
+    transition:color 0.3s ease-out;
 }
 
 a:hover {
     color: #ff2200;
+}
+
+strong {
+    font-weight: bold;
 }
 
 hr {
